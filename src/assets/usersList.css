@@ -1,0 +1,91 @@
+.mainContainer {
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    background-color: rgb(46, 154, 231);
+    color: #ffffff;
+    border-radius: 0.2rem;
+}
+
+.narrowText {
+    font-weight: 300;
+}
+
+.headerAdd_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 101, 134);
+    padding: 0.5rem 1.3rem;
+    border-radius: 0.2rem;
+}
+
+.headerAdd_div>p {
+    margin: 0rem;
+    margin-left: 0.5rem;
+}
+
+.table_div {
+    padding: 0.5rem 2.5rem;
+    margin-top: 1rem;
+}
+
+.delBtn {
+    color: red;
+}
+
+.delBtn:hover {
+    cursor: pointer;
+}
+
+thead th:nth-child(1) {
+    width: 3%;
+    text-align: start;
+}
+
+thead th:nth-child(2),
+thead th:nth-child(3) {
+    width: 8%;
+    text-align: start;
+}
+
+thead th:nth-child(4) {
+    width: 15%;
+    text-align: start;
+}
+
+thead th:nth-child(5),
+thead th:nth-child(6) {
+    width: 10%;
+    text-align: start;
+}
+
+thead th:nth-child(7) {
+    width: 41%;
+    text-align: start;
+}
+
+thead th:nth-child(8) {
+    width: 5%;
+    text-align: start;
+    padding-left: 2rem;
+}
+
+tbody td:nth-child(7) {
+    text-align: justify;
+}
+
+tbody td:nth-child(8) {
+    padding-left: 2rem;
+}
+
+th,td{
+    padding-bottom: 1rem;
+}
